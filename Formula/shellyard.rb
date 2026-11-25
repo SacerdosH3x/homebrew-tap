@@ -2,22 +2,22 @@
 class Shellyard < Formula
   desc "SSH, SFTP, tunnels and terminals with an encrypted vault"
   homepage "https://github.com/SacerdosH3x/shellyard"
-  version "0.1.0-beta.1"
+  version "0.1.0-beta.3"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
-    url "https://github.com/SacerdosH3x/shellyard/releases/download/v0.1.0-beta.1/shellyard-0.1.0-beta.1-macos-universal.tar.gz"
-    sha256 "47246e9a94492f2bc58f12d5858755d6d3d37b2428ab7a83d991ec4e07598e35"
+    url "https://github.com/SacerdosH3x/shellyard/releases/download/v0.1.0-beta.3/shellyard-0.1.0-beta.3-macos-universal.tar.gz"
+    sha256 "e1a353cf61432cb22bad8c03ec4be01f156250e21de2823120545038e25c36c2"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/SacerdosH3x/shellyard/releases/download/v0.1.0-beta.1/shellyard-0.1.0-beta.1-linux-x86_64.tar.gz"
-      sha256 "d970e642433e64046a77659228bf875829d4b83f4167d3c61590addda5b7bce0"
+      url "https://github.com/SacerdosH3x/shellyard/releases/download/v0.1.0-beta.3/shellyard-0.1.0-beta.3-linux-x86_64.tar.gz"
+      sha256 "9a289d51ce68c7fd0ed470d3eb744030c7cebfdb75ce0f70fca6fdd1d74901a5"
     end
     on_arm do
-      url "https://github.com/SacerdosH3x/shellyard/releases/download/v0.1.0-beta.1/shellyard-0.1.0-beta.1-linux-aarch64.tar.gz"
-      sha256 "0cdc5afcd2535e2f5918082568d5a6f32fd07cd77b57d249dca7026be10e8c27"
+      url "https://github.com/SacerdosH3x/shellyard/releases/download/v0.1.0-beta.3/shellyard-0.1.0-beta.3-linux-aarch64.tar.gz"
+      sha256 "4b9b7a42622c8310f3878595d0dbe23935f2b6717b20e36b560215028f8161fb"
     end
   end
 
